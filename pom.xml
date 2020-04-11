@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ksying.spring</groupId>
-    <artifactId>handwriting-spring</artifactId>
+    <artifactId>handwriting-spring-ioc</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -31,11 +31,11 @@
             <version>1.9.3</version>
         </dependency>
 
-        <!--		<dependency>-->
-        <!--			<groupId>com.kkb</groupId>-->
-        <!--			<artifactId>spring-framework-custom-12</artifactId>-->
-        <!--			<version>0.0.1-SNAPSHOT</version>-->
-        <!--		</dependency>-->
+        <dependency>
+            <groupId>com.ksying.spring</groupId>
+            <artifactId>handwriting-spring-ioc-framework</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
